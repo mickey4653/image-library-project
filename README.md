@@ -137,4 +137,5 @@ To run the project locally with npm http-server, follow these steps:
     ```
 
     This will start the http-server, and you can view your image gallery project by navigating to [http://localhost:8080](http://localhost:8080) or http://127.0.0.1:8080 in your web browser.
+    Note: Make sure to navigate to the `dist/` on the browser.
 
