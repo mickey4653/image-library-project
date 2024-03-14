@@ -1,0 +1,34 @@
+body {
+  text-size-adjust: 100%; }
+
+.image-checkbox {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  /* This ensures the box is always square */
+  overflow: hidden; }
+
+.image-checkbox input[type="checkbox"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer; }
+
+.image-checkbox .image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center; }
+
+/* Added an outline or border when checkbox is checked */
+.image-checkbox input[type="checkbox"]:checked + .image {
+  border: 4px solid blue;
+  /* Change this to adjust the border color */ }
+
+/*# sourceMappingURL=styles.css.map */
